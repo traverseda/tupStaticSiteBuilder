@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>{{ title[0] }}</title>
+  <meta name="description" content="{{ title[0] }}">
+  <meta name="author" content="{{ author }}">
+  <link rel="stylesheet" href="/sakura-earthly.css">
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+    <h1>{{ title[0] }}</h1>
+    {% block content %}
+    {% endblock content %}
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>
