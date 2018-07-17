@@ -5,4 +5,4 @@ to keep track of what files change, it's very fast. It's not meant for your
 typical blog-style timeline website, although you could probably hack that in if
 you tried.
 
-You can see a testing page [here](/subFolder/test.html).
+
