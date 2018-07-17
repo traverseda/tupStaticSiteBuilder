@@ -1,3 +1,4 @@
+#These rules apply to every folder
 include_rules
 #Generate individual pages.
 : foreach *.md |> $(STATIC_ROOT)/render.py $(STATIC_ROOT) %f %o |> %B.html
